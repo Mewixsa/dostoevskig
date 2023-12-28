@@ -21,6 +21,7 @@ a {
     padding: 20px;
     background-color: rgba(128, 128, 128, 0.442);
 }
+
 header {
     width: 100%;
     display: flex;
@@ -54,6 +55,7 @@ header {
     padding-right: 20%;
     padding-top: 5%;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .main2,
@@ -65,7 +67,7 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.video{
+.video {
     border-radius: 10px;
     width: 100%;
 }
@@ -80,6 +82,13 @@ main {
         padding-right: 10%;
         padding-top: 5%;
         text-align: center;
+    }
+
+    .main1,
+    .main2,
+    .main3 {
+        padding-top: 5%;
+        padding-bottom: 15%;
     }
 
 }
